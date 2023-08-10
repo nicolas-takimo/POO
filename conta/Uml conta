@@ -1,0 +1,28 @@
++------------------------------------+
+|            Cliente                 |
++------------------------------------+
+| -nome: String                      |
+| -cpf: String                       |
++------------------------------------+
+| +Cliente(nome: String, cpf: String)|
+| +getNome(): String                 |
+| +getCpf(): String                  |
++------------------------------------+
+                
+                
+                
++--------------------------------------+
+|               Conta                  |
++--------------------------------------+
+| -numero: int                         |
+| -saldo: double                       |
+| -titular: Cliente                    |
++--------------------------------------+
+| +Conta(numero: int, titular: Cliente)|
+| +depositar(valor: double): boolean   |
+| +sacar(valor: double): boolean       |
+| +getNumero(): int                    |
+| +getSaldo(): double                  |
+| +getTitular(): Cliente               |
++--------------------------------------+
+
