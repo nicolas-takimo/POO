@@ -1,11 +1,18 @@
 public interface PersonagemArmadura {
     
-    default void tipoArmadura(String tipo){
+    /**
+     * @param tipo
+     */
+    
+    void tipoArmadura(String tipo);
         
-    }
+    
 
-    default void pesoArmadura (float peso){
-    }
+    /**
+     * @param peso
+     */
+     void pesoArmadura (float peso);
+    
 
 }
 

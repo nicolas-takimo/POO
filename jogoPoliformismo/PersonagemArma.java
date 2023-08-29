@@ -1,12 +1,12 @@
 public interface  PersonagemArma {
     
 
-    default void tipoArma(String tipo){
+    void tipoArma(String tipo);
         
-    }
+    
 
-    default void pesoArma (float peso){
+    void pesoArma (float peso);
       
-    }
+    
 
 }
